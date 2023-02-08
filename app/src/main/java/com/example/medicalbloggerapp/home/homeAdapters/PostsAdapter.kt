@@ -6,13 +6,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.medicalbloggerapp.R
-import com.example.medicalbloggerapp.databinding.PostItemBinding
+import com.example.medicalbloggerapp.databinding.HomePostItemBinding
 import com.example.medicalbloggerapp.home.models.PostModel
 
 class PostsAdapter (private val postModel: List<PostModel>) : RecyclerView.Adapter<PostsAdapter.PostsViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostsViewHolder {
-        val view =LayoutInflater.from(parent.context).inflate(R.layout.post_item,parent,false)
+        val view =LayoutInflater.from(parent.context).inflate(R.layout.home_post_item,parent,false)
         return PostsViewHolder(view)
     }
 
@@ -26,7 +26,7 @@ class PostsAdapter (private val postModel: List<PostModel>) : RecyclerView.Adapt
 
 
     inner class PostsViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
-        val binding = PostItemBinding.bind(itemView)
+        val binding = HomePostItemBinding.bind(itemView)
 
     }
 }

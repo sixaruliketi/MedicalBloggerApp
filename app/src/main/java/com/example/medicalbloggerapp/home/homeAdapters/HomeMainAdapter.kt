@@ -5,13 +5,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.medicalbloggerapp.R
-import com.example.medicalbloggerapp.databinding.PostCollectionItemBinding
+import com.example.medicalbloggerapp.databinding.HomePostCollectionItemBinding
+import com.example.medicalbloggerapp.databinding.HomePostItemBinding
 import com.example.medicalbloggerapp.home.models.PostCollectionModel
 
 class HomeMainAdapter(private val collection : List<PostCollectionModel>) : RecyclerView.Adapter<HomeMainAdapter.CollectionViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CollectionViewHolder {
-        val view =LayoutInflater.from(parent.context).inflate(R.layout.post_collection_item,parent,false)
+        val view =LayoutInflater.from(parent.context).inflate(R.layout.home_post_collection_item,parent,false)
         return CollectionViewHolder(view)
     }
 
@@ -27,7 +28,7 @@ class HomeMainAdapter(private val collection : List<PostCollectionModel>) : Recy
     override fun getItemCount() =collection.size
 
     inner class CollectionViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
-        val binding = PostCollectionItemBinding.bind(itemView)
+        val binding = HomePostCollectionItemBinding.bind(itemView)
     }
 
 

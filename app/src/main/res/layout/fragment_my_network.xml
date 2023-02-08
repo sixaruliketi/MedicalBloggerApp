@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="commonly asked questions"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:fontFamily="serif-monospace"
         android:layout_marginTop="10dp"
@@ -27,7 +27,7 @@
         android:layout_marginTop="10dp"
 
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        tools:listitem="@layout/post_item"
+        tools:listitem="@layout/question_category_item"
         tools:spanCount="2"
 
         app:layout_constraintTop_toBottomOf="@+id/myNetworkTitleTextView"

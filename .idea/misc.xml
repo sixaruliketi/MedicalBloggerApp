@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/drawable/button_bg.xml" value="0.144" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/drawable/category_bg.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/drawable/ic_bg.xml" value="0.1625" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/activity_login.xml" value="0.2265625" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
@@ -15,6 +16,8 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/home_category_item.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/movie_item.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/post_item.xml" value="0.18504273504273505" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/post_item_2.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/question_category_item.xml" value="0.4" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.22552083333333334" />
       </map>

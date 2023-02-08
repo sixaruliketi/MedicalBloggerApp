@@ -3,6 +3,8 @@ package com.example.medicalbloggerapp
 import com.example.medicalbloggerapp.Images.POSTER_BASE_URL
 import com.example.medicalbloggerapp.home.models.PostCollectionModel
 import com.example.medicalbloggerapp.home.models.PostModel
+import com.example.medicalbloggerapp.network.models.CategoryModel
+
 object SampleData {
 
     private val postModels= listOf(

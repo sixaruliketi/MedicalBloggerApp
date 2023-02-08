@@ -12,11 +12,14 @@ import com.example.medicalbloggerapp.R
 import com.example.medicalbloggerapp.SampleData
 import com.example.medicalbloggerapp.databinding.FragmentMyNetworkBinding
 import com.example.medicalbloggerapp.network.adapter.QuestionsRecyclerViewAdapter
+import com.example.medicalbloggerapp.network.models.CategoryModel
 
 class MyNetworkFragment : Fragment(R.layout.fragment_my_network) {
 
     private var _binding: FragmentMyNetworkBinding? = null
     private val binding get() = _binding!!
+
+    lateinit var myQuestions : ArrayList<CategoryModel>
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -31,7 +34,15 @@ class MyNetworkFragment : Fragment(R.layout.fragment_my_network) {
     private fun init(){
         binding.questionsCollectionRecyclerView.apply {
             layoutManager = GridLayoutManager(context,2)
-            adapter = QuestionsRecyclerViewAdapter(FakeData.collections)
+            myQuestions = arrayListOf<CategoryModel>()
+            addData()
+            adapter = QuestionsRecyclerViewAdapter(myQuestions)
+        }
+    }
+
+    private fun addData(){
+        for (i in 0..9){
+            myQuestions.add(CategoryModel("category$i"),)
         }
     }
 

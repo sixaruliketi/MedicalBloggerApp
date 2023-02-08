@@ -6,27 +6,27 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.medicalbloggerapp.R
-import com.example.medicalbloggerapp.databinding.PostItemBinding
-import com.example.medicalbloggerapp.home.models.PostModel
+import com.example.medicalbloggerapp.databinding.QuestionCategoryItemBinding
+import com.example.medicalbloggerapp.network.models.CategoryModel
 
-class QuestionsRecyclerViewAdapter (private val postModel: List<PostModel>) : RecyclerView.Adapter<QuestionsRecyclerViewAdapter.QuestionsViewHolder>(){
+class QuestionsRecyclerViewAdapter (private val categoryModel: ArrayList<CategoryModel>) : RecyclerView.Adapter<QuestionsRecyclerViewAdapter.QuestionsViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): QuestionsViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.post_item_2,parent,false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.question_category_item,parent,false)
         return QuestionsViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: QuestionsViewHolder, position: Int) {
         holder.binding.apply {
-            imgMoviePoster.load(postModel[position].imageUrl)
+            categoryTextView.text = categoryModel[position].title
         }
     }
 
-    override fun getItemCount() = postModel.size
+    override fun getItemCount() = categoryModel.size
 
 
     inner class QuestionsViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
-        val binding = PostItemBinding.bind(itemView)
+        val binding = QuestionCategoryItemBinding.bind(itemView)
 
     }
 }
