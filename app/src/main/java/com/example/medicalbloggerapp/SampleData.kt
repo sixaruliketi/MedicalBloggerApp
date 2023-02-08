@@ -1,5 +1,6 @@
 package com.example.medicalbloggerapp
 
+import com.example.medicalbloggerapp.Images.POSTER_BASE_URL
 import com.example.medicalbloggerapp.home.models.PostCollectionModel
 import com.example.medicalbloggerapp.home.models.PostModel
 object SampleData {
@@ -41,4 +42,24 @@ object Images {
     const val imageUrl8 = POSTER_BASE_URL + "pHkKbIRoCe7zIFvqan9LFSaQAde.jpg"
     const val imageUrl9 = POSTER_BASE_URL + "rFljUdOozFEv6HDHIFpFvcYW0ec.jpg"
 
+}
+
+object FakeData{
+
+    const val POSTER_BASE_URL = "https://image.tmdb.org/t/p/w342/"
+
+    val collections = listOf(
+        PostModel(Images.POSTER_BASE_URL + "kjFDIlUCJkcpFxYKtE6OsGcAfQQ.jpg"),
+        PostModel(Images.POSTER_BASE_URL + "bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg"),
+        PostModel(Images.POSTER_BASE_URL + "pTxw4GFE3ZfzJfvuUsPyD5njAuI.jpg"),
+        PostModel(Images.POSTER_BASE_URL + "pGx6O6IwqADOsgmqWzPysmWnOyr.jpg"),
+        PostModel(Images.POSTER_BASE_URL + "aGBuiirBIQ7o64FmJxO53eYDuro.jpg"),
+        PostModel(Images.POSTER_BASE_URL + "spCAxD99U1A6jsiePFoqdEcY0dG.jpg"),
+        PostModel(Images.POSTER_BASE_URL + "7ze7YNmUaX81ufctGqt0AgHxRtL.jpg"),
+        PostModel(Images.POSTER_BASE_URL + "gb6rq2nD0jRrN0dCzigg2MxXNsB.jpg"),
+        PostModel(Images.POSTER_BASE_URL + "pHkKbIRoCe7zIFvqan9LFSaQAde.jpg"),
+        PostModel(Images.POSTER_BASE_URL + "rFljUdOozFEv6HDHIFpFvcYW0ec.jpg"),
+
+
+    )
 }

@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/drawable/button_bg.xml" value="0.144" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/drawable/ic_bg.xml" value="0.1625" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/activity_login.xml" value="0.2265625" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
