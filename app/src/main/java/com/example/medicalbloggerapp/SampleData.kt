@@ -1,27 +1,27 @@
 package com.example.medicalbloggerapp
 
-import com.example.medicalbloggerapp.data.MainModel
-import com.example.medicalbloggerapp.data.MovieModel
+import com.example.medicalbloggerapp.home.models.PostCollectionModel
+import com.example.medicalbloggerapp.home.models.PostModel
 object SampleData {
 
-    private val movieModel= listOf(
-        MovieModel(Images.imageUrl0),
-        MovieModel(Images.imageUrl1),
-        MovieModel(Images.imageUrl2),
-        MovieModel(Images.imageUrl3),
-        MovieModel(Images.imageUrl4),
-        MovieModel(Images.imageUrl5),
-        MovieModel(Images.imageUrl6),
-        MovieModel(Images.imageUrl7),
-        MovieModel(Images.imageUrl8),
-        MovieModel(Images.imageUrl9)
+    private val postModels= listOf(
+        PostModel(Images.imageUrl0),
+        PostModel(Images.imageUrl1),
+        PostModel(Images.imageUrl2),
+        PostModel(Images.imageUrl3),
+        PostModel(Images.imageUrl4),
+        PostModel(Images.imageUrl5),
+        PostModel(Images.imageUrl6),
+        PostModel(Images.imageUrl7),
+        PostModel(Images.imageUrl8),
+        PostModel(Images.imageUrl9)
     )
 
     val collections = listOf(
-        MainModel("All Movie" , movieModel),
-        MainModel("Want to see" , movieModel.reversed()),
-        MainModel("Popular Movie" , movieModel.shuffled()),
-        MainModel("Top Rated Movie" , movieModel)
+        PostCollectionModel("All Movie" , postModels),
+        PostCollectionModel("Want to see" , postModels.reversed()),
+        PostCollectionModel("Popular Movie" , postModels.shuffled()),
+        PostCollectionModel("Top Rated Movie" , postModels)
 
     )
 }
