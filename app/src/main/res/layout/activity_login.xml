@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.login.LoginFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="40sp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/loginEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your email"
+        android:inputType="textEmailAddress"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/loginPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your password"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/ic_eye"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:id="@+id/loginSignUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="not registered? sign up"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>

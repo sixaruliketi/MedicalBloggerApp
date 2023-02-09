@@ -9,7 +9,7 @@ import com.example.medicalbloggerapp.databinding.HomePostCollectionItemBinding
 import com.example.medicalbloggerapp.databinding.HomePostItemBinding
 import com.example.medicalbloggerapp.home.models.PostCollectionModel
 
-class HomeMainAdapter(private val collection : List<PostCollectionModel>) : RecyclerView.Adapter<HomeMainAdapter.CollectionViewHolder>() {
+class HomeMainAdapter(private val collection : MutableList<PostCollectionModel>) : RecyclerView.Adapter<HomeMainAdapter.CollectionViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CollectionViewHolder {
         val view =LayoutInflater.from(parent.context).inflate(R.layout.home_post_collection_item,parent,false)
@@ -21,7 +21,7 @@ class HomeMainAdapter(private val collection : List<PostCollectionModel>) : Recy
             val collection = collection[position]
             tvGenreMovie.text =collection.title
             val postsAdapter = PostsAdapter(collection.postModels)
-            rvMovieChild.adapter=postsAdapter
+            rvMovieChild.adapter = postsAdapter
         }
     }
 

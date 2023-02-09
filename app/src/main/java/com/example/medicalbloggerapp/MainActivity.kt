@@ -6,7 +6,6 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.medicalbloggerapp.home.homeAdapters.HomeMainAdapter
 import com.example.medicalbloggerapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

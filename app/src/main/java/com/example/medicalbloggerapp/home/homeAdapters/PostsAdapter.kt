@@ -9,7 +9,7 @@ import com.example.medicalbloggerapp.R
 import com.example.medicalbloggerapp.databinding.HomePostItemBinding
 import com.example.medicalbloggerapp.home.models.PostModel
 
-class PostsAdapter (private val postModel: List<PostModel>) : RecyclerView.Adapter<PostsAdapter.PostsViewHolder>(){
+class PostsAdapter (private val postModel: MutableList<PostModel>) : RecyclerView.Adapter<PostsAdapter.PostsViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostsViewHolder {
         val view =LayoutInflater.from(parent.context).inflate(R.layout.home_post_item,parent,false)

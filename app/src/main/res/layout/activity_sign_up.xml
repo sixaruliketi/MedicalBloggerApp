@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.signup.SignUpActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/signUpTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="40sp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/signUpEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your email"
+        android:inputType="textEmailAddress"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/signUpPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your password"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/ic_eye"
+        android:layout_marginHorizontal="10dp"/>
+
+    <EditText
+        android:id="@+id/signUpRepeatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="repeat password"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/ic_eye"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="10dp"/>
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:backgroundTint="@color/white"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:id="@+id/signUpLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="registered? sign in"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>

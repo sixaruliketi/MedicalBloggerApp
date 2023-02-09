@@ -7,21 +7,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/registerTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="register"
-        android:textSize="19sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_bg"
-        android:paddingVertical="10dp"
-        android:paddingHorizontal="15dp"
-        android:layout_margin="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/rvMain"/>
-
-    <TextView
         android:id="@+id/homeTitleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,7 +26,7 @@
         android:padding="8dp"
         android:layout_marginTop="10dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintTop_toBottomOf="@+id/registerTextView"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitleTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:listitem="@layout/home_post_collection_item"/>

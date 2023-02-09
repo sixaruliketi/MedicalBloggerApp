@@ -8,12 +8,17 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/drawable/ic_bg.xml" value="0.1625" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/activity_login.xml" value="0.2265625" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2109375" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/collection_item.xml" value="0.18548387096774194" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/fragment_appointment.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/fragment_home.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/fragment_login.xml" value="0.2265625" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/fragment_make_appointment.xml" value="0.22131147540983606" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/fragment_my_network.xml" value="0.2265625" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/fragment_profile.xml" value="0.2109375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/fragment_sign_up.xml" value="0.2109375" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/home_category_item.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/home_post_collection_item.xml" value="0.2265625" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/movie_item.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/post_item.xml" value="0.18504273504273505" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MedicalBloggerApp/app/src/main/res/layout/post_item_2.xml" value="0.1" />
