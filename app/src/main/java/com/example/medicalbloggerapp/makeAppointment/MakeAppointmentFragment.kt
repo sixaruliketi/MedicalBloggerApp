@@ -29,19 +29,19 @@ class MakeAppointmentFragment : Fragment() {
     }
 
     private fun init(){
+
+        var appointmentDay = ""
         binding.apply {
-
-            var patientDate = ""
+            binding.makeAppointmentCalendar.setOnDateChangeListener { view, year, month, dayOfMonth ->
+                val date = (dayOfMonth.toString() + "/" + (month + 1) + "/" + year)
+                appointmentDay = date
+            }
             makeAppointmentButton.setOnClickListener {
-
-                val date = makeAppointmentCalendar.weekDayTextAppearance
-                // TODO: date
-
                 val email = personEmailEditText.text.toString()
                 val name = personNameEditText.text.toString()
                 val number = personContactNumberEditText.text.toString()
 
-                val patientInfo = Patient(patientDate, name, number, email)
+                val patientInfo = Patient(appointmentDay, name, number, email)
 
                 db.child(name).setValue(patientInfo)
 
